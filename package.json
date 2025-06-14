@@ -1,0 +1,11 @@
+{
+  "name": "project-dilsesevak",
+  "version": "1.0.0",
+  "description": "Vision - A platform were all the NGO's & Volunteer's will come together help, donate and volunteer virtually.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Patil",
+  "license": "ISC"
+}
