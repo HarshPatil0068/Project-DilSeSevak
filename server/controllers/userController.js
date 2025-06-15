@@ -3,7 +3,7 @@ import register from "../models/registration.js";
 
 
 export const registerUser = async (req, res) => {
-  const { firstName, lastName, age, location, mobileNo, email, password } =
+  const { firstName, lastName, age, location, mobileNo, role, email, password } =
     req.body;
 
   try {
@@ -20,6 +20,7 @@ export const registerUser = async (req, res) => {
       age,
       location,
       mobileNo,
+      role,
       email,
       password: hashedPassword, // 🔹 Store hashed password
     });
